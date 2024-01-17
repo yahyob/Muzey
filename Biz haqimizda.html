@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz Haqimizda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Biz haqimizda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <div class="navbar justify-content-between bg-secondary text-light p-3">
+                <div class="nav-item mt-2">
+                    <img src="./img/navbar.png" alt="">
+                </div>
+                <div class="d-xl-flex d-none nav-item mt-2">
+                    <div class="nav-link p-3 col-lg-2 col-md-6 col-sm-3">
+                        <a href="./index.html">Asosiy</a>
+                    </div>
+                    <div class="nav-link dropdown col-lg-3 col-md-6 col-sm-3 mt-2">
+                        <a href="#">Haqimizda</a>
+                    </div>
+                    <div class="nav-link dropdown col-lg-4 col-md-6 col-sm-3 mt-1">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a href="#">Buyumlar</a>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="./Fo'to'Galareya.html">Foto Galareya</a></li>
+                          <li><a class="dropdown-item" href="./Ashyolar.html">Ashyolar</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-link p-3 col-lg-4 col-md-6 col-sm-3">
+                        <a href="./Bog'lanish.html">Bog'lanish</a>
+                    </div>
+                </div>
+                <div class="d-xl-flex d-none nav-item">
+                    <form class="d-flex mb-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                    </form>
+                </div>
+                <div class="d-xl-flex d-none navbar-item">
+                    <i class="fa-regular fa-user text-light mt-2"></i>
+                    <a class="nav-text1" href="./Sign up.html">Ro'yhatdan o'tish</a>
+                    <a class="nav-text" href="./Login.html">Kirish</a>
+                </div>
+                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-cart-shopping"></i><a class="text-decoration-none text-light " href="./Savat.html"> <b class="p-1">Savat</b></a></button>
+                <div class="d-xl-flex d-none navbar-item1">
+                    <i class="fa-brands fa-youtube p-2"></i>
+                    <i class="fa-brands fa-facebook-f p-2"></i>
+                    <i class="fa-brands fa-instagram p-2"></i>
+                    <i class="fa-brands fa-telegram p-2"></i>
+                    <div class="dropdown">
+                        <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="text-decoration-none text-light" href="#">UZ</a>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">UZ</a></li>
+                          <li><a class="dropdown-item" href="#">RU</a></li>
+                          <li><a class="dropdown-item" href="#">ENG</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <button class="d-xl-none d-flex navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active text-dark" aria-current="page" href="#">Asosiy</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Haqida
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./Ashyolar.html">Ashyolar</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="text-decoration-none text-dark" href="./Fo'to'Galareya.html">Foto'galareya</a>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./Biz haqimizda.html">Bog'lanish</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="navbar-item">
+                                <i class="fa-regular fa-user text-dark"></i>
+                                <a class="nav-text1 text-dark text-decoration-none" href="./Sign up.html">Ro'yhatdan o'tish</a>
+                                <a class="nav-text text-decoration-none text-dark" href="Login.html">Kirish</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="navbar-item1">
+                                <i class="fa-brands fa-youtube p-2 text-dark"></i>
+                                <i class="fa-brands fa-facebook-f p-2 text-dark"></i>
+                                <i class="fa-brands fa-instagram p-2 text-dark"></i>
+                                <i class="fa-brands fa-telegram p-2 text-dark"></i>
+                                <div class="dropdown">
+                                    <button class="btn text-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <a class="text-decoration-none text-dark" href="#">UZ</a>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">UZ</a></li>
+                                      <li><a class="dropdown-item" href="#">RU</a></li>
+                                      <li><a class="dropdown-item" href="#">ENG</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+          <div class="Header-bg-img">
+          </div>
+        </div>
+        <div class="container">
+          <div class="main-header mt-5">
+            <h1>Oʻzbekiston Davlat Sa'nat Muzeyi</h1>
+            <p class="mt-4"><b>Oʻzbekiston davlat sanʼat muzeyi</b> — madaniy-maʼrifiy, ilmiy muassasa; Oʻrta Osiyoda ilk bor tashkil etilgan badiiy muzey. 1918 yilda Toshkent shahrida Xalq universiteti muzeyi sifatida asos solingan; keyinchalik Markaziy badiiy muzey, 1924 yildan Toshkent sanʼat muzeyi, 1935 yildan hozirgi nomda. Muzey Toshkentda yashagan knyaz N.K.Romanovning shaxsiy toʻplami (rus va Gʻarbiy Yevropa rassomlari yaratgan portret va tarixiy kartinalar, grafika va haykaltaroshlik asarlari, badiiy mebel, chinni buyumlar va boshqalar) negizida vujudga kelgan. Turkiston oʻlkashunoslik muzeyining badiiy boʻlimidan va boshqalar muzeylarning fondlaridan, shaxsiy toʻplamlardan sanʼat asarlari keltirilib boyitilgan (V.L. Borovikovskiy, K. P. Bryullov, V. A. Tropinin, I.M.Nikitin, O.A.Kiprenskiy, I.K.Ayvazovskiy, S.V.Ivanov, I.N. Kramskoy, N.N.Ge, A.K. Savrasov, I. I.Shishkin, V.G. Perov va boshqalar); muzeyda 19-asr rus rassomlarining nodir asarlari to’plangan (I.Ye.Repin, V. A. Serov, I.I. Levitan, N.K.Rerix va boshqalar). Muzey fondi 50 mingdan ziyod eksponatga ega (2005), tomoshabinlar soni yiliga 250 mingdan oshadi. Muzeyda Oʻzbekiston xalq amaliy sanʼati, Oʻzbekiston tasviriy sanʼati, rus sanʼati, Gʻarbiy Yevropa sanʼati, Xorijiy Sharq xalklari sanʼati boʻlimlari, xazina, taʼmirlash ustaxonasi, fotolaboratoriya bor, lektoriy tashkil etilgan. Muzey ilmiy muassasa sifatida Oʻzbekiston tasviriy sanʼati boʻyicha ilmiy tekshirish ishlari olib boradi: sanʼat asarlari sotib oladi, ularni ilmiy yoritadi, muzey xazinasidagi sanʼat asarlarini tahlil qiladi, tavsiflaydi, ilmiy asarlar, katalog , albomlar nashr etadi (mas, Yapon gravyurasi O’zbekiston davlat sanʼat muzeyi toʻplamida katalogi; Davlat sanʼat muzeyi albomi, Toshkentda eng yaxshi turkum maʼlumot kitobi va boshqalar), xazinasidagi sanʼat asarlari asosida mavzuli koʻrgazmalar tashkil etadi, chet mamlakatlar (AQSH, Belgiya, Buyuk Britaniya, Germaniya, Fransiya, Shveysariya, Rossiya, Xitoy, Yaponiya va boshqalar) ko’rgazmalarida ishtirok etadi (jumladan, EKSPO—2000 xalqaro koʻrgazmasi, Germaniyada; Xalqaro gilamdo’zlik koʻrgazmasi hamda Qadimshunoslik va amaliy sanʼat, AQShda va boshqalar). Ayniqsa, mustaqillik yillarida xorijiy mamlakatlar bilan ijodiy aloqalar kengaydi. Muzey Xalqaro muzeylar qoʻmitasi (IKOM) aʼzosidir. Muzeyga turli davrlarda Sh. Hasanova, S.Abdullayev, D.Ro’ziboyev rahbarlik qilgan; 1997 yildan muzey rahbari Nasiba Ibrohimova. Muzey ekspozitsiyasi sanʼat janri va turlariga ajratilgan holda xronologik tartibda tuzilgan. Har bir zaldagi eksponatlar sanʼat turlari, maktablari, anʼanalar va hozirgi rivojlanish markazlariga qarab joylashtirilgan. Ekspozitsiya Oʻzbekistonning qadimiy sanʼat yodgorliklari — Zarautsoy rasmlari, Xolchayondan topilgan haykallarni, soʻng Oʻzbekiston xalq amaliy bezak sanʼatini namoyish etish bilan boshlanadi. Oʻrta Osiyoda yashab ijod etgan rassomlar (I.S.Kazakov, N.N.Karazin, R.K.Zommer va boshqalar)ning 250 ga yaqin sanʼat asarlari toʻplangan, shu yerda ishlagan rassom P. Benkov, A. Volkov, M.I.Kurzin, Usto Moʻmin (A. Nikolayev), O. Tatevosyan, V. Ufimsev, N.V.Kashina, Z.M.Kovalevskaya va boshqalarning asarlariga ekspozitsiyadan alohida oʻrin berilgan. Muzey fondining katta qismini Oʻzbekiston tasviriy sanʼati asarlari tashkil qiladi: Oʻzbekiston tabiat kuychisi O’. Tansiqboyev, A. Abdullayev, Ya.Abdullayev, Sh. Hasanova, Ch.Ahmarov, R. Ahmedov, N.Qoʻziboyev, S. Abdullayev, R.Choriyev ijodi, tasviriy sanʼat taraqqiyotidagi ularning hissasi muzey ekspozitsiyalarida o’z aksini topgan. Muzey, shuningdek, boy oʻzbek amaliy sanʼati toʻplamiga ega: ganch, yogʻoch va tosh oʻymakorligi namunalari, zargarlik, gilamchilik, kashtadoʻzlik, kulollikka mansub qimmatli buyumlar oʻzbek xalqining qadimiy va boy amaliy bezak sanʼati haqida mukammal maʼlumot beradi. Muzeyda Gʻarb (Italiya, Ispaniya, Germaniya, Niderlandiya, Fransiya, Buyuk Britaniya) va Sharq (Hindiston, Xitoy, Yaponiya, Vyetnam, Myanma) mamlakatlarining tasviriy sanʼat asarlari va amaliy sanʼati namunalariga keng oʻrin ajratib berilgan. Muzey dastlab knyaz N.K.Romanov saroyida, 1935—66 yillar Xalq universiteti binosida joylashgan, 1974 yildan (1966 yil Toshkent zilzilasida vayron boʻlgan Xalq universiteti binosi oʻrnida) muzey uchun maxsus qurilgan binoda (meʼmorlari I.Abdulov, A.K.Nikiforov, S.A.Rozemblyum). Bino tarhi sodda kub shaklida, tarzlari metall sinch (karkas)li konstruksiyalar bilan toʻrtburchak shaklli qismlarga bo’lingan, poydevor va peshtogʻi kulrang marmar bilan qoplangan. Muzey binosida 1997 yildan qayta qurish va taʼmirlash ishlari olib borildi; binoning 4 tomoniga Oʻzbekistonda ishlab chiqarilgan zamonaviy oynalar oʻrnatildi, ular zallarni bir xilda mayin yoritib turishi sanʼat asarlarini tabiiy yorugʻlikda koʻrish imkonini beradi. Muzey zamonaviy qoʻriqlash va yongʻinga qarshi asbobuskunalar, kompyuterlar bilan jihozlandi.</p>
+          </div>
+        </div>
+        <div class="container">
+          <h1 class="mt-5">Muzey haqida video</h1>
+          <div class="row">
+              <div class="col-12 mt-2">
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/2PUmPtjfBHU?si=M6ZI83oNskPO2W7i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="Main-Header">
+            <h1 class="text-center mt-5">Muzey Qoidalari</h1>
+            <div class="row justify-content-around">
+              <div class="col-lg-5 mt-5">
+                 <p><b>1. Nima uchun muzey yo'l chiroqlari va yorug'lik chiroqlaridan foydalanadi?</b> <br>Biz bu erda tez-tez ishlatiladigan' muzeyini muhokama qilamiz. Uning xususiyati shundaki, chiroq o'rnini sozlash juda oson va trekni elektr va yorug'likni bir vaqtning o'zida ulash uchun ishlatish mumkin. Muzeyning maxsus funktsiyalariga ko'ra, vaqtinchalik ko'rgazmalar ko'pligi sababli, har safar ko'rgazma tashkil etilganda, eksponatlar ko'pincha buyumlarning joylashishi va harakatlanishidagi o'zgarishlarga duch kelishadi va yorug'likni vaqtincha sozlash kerak. Shu sababli, moslashuvchan proektsion yo'nalishi va yo'l chiroqlarining qulay nur burchagi sozlamalari muzeylarning ehtiyojlarini to'liq qondirishi mumkin. Muzeylarda keng tarqalgan lampalarning ikkinchi turi - bu LED yoritgichi. Bu, shuningdek, muzeyni bezatish va yorug'likni tarqatish ehtiyojlari bilan bog'liq. Yo'l chiroqlari asosiy yoritish moslamalari sifatida ishlatilgan. Stadionning ichki maydoni shiftdagi juda ko'p chiroqni talab qilmaydi, ammo ba'zi joylarda yorug'lik chiroqlari yoritilmaydigan joylar mavjud, bu esa ko'p sonli LED yoritgichlarni echishni talab qiladi.</p>
+              </div>
+              <div class="col-lg-5 mt-5">
+                <img class="w-75" src="./img/qoidalar-img.webp" alt="">
+              </div>
+            </div> 
+            <div class="row mt-5 justify-content-around">
+              <div class="col-lg-5">
+                <img class="w-75" src="./img/qoidalar-img1.webp" alt="">
+              </div>
+              <div class="col-lg-5 mt-5">
+                <p><b>2. Yoritishga qarshi,</b> yuqori ko'rsatkich ko'rsatkichi (Ra≥ 90) Ko'rgazma madaniy yodgorliklarining talablaridan kelib chiqqan holda, muzey chiroqlarning yorug'lik tarqalishiga juda yuqori talablarga ega. Ayniqsa, LED yoritgichlarining optik dizayni porlashni bartaraf qilishi kerak va yorug'lik dog'lari toza va chiroyli bo'lishi kerak va ikkinchi darajali yorug'lik nuqtalari bilan bog'liq muammolar bo'lmasligi kerak; Shu bilan birga, ranglarni ko'rsatish indeksiga bo'lgan talab Ra ≥ 90, chunki bu madaniy qoldiqlarning holatini asosan jismoniy rang va materialga mos keladigan yorug'lik bilan kamaytirishni o'z ichiga oladi.</p>
+              </div>
+            </div>
+            <div class="row justify-content-around mt-5">
+              <div class="col-lg-5 mt-5">
+                <p><b>3. Nima uchun muzeyning devorlari asosan qorong'i rangda bo'yalgan va LED yorug'lik chiroqining nurga qarshi yorug'lik doirasi ham qora?</b> Muzey madaniyat va tarixni targ'ib qiladigan joydir, shuning uchun yorug'lik muhiti tinch va abadiy his-tuyg'ularni ifoda etish uchun odatda qorong'i. Qorong'u muhitning yaratilishi madaniy yodgorliklar va boshqa eksponatlarni aniq yoritilishiga ham yordam beradi. Yorug'lik jihatidan u quyidagi xususiyatlarga ega: 1. Devor, zamin va ship materiallari asosan qorong'i ranglarda bo'yalgan, asosan yorug'likni yutish uchun. 2. Chiroq izi ham qorong'i, masalan, qora qora. 3. Yorug'likni ko'rmagan, ammo yorug'lik moslamasini ko'rmagan holda ta'sirga erishishga harakat qiling.</p>
+              </div>
+              <div class="col-lg-5">
+                <img class="w-75" src="./img/qoidalar-img2.webp" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Footer mt-5">
+            <div class="row justify-content-evenly">
+                 <div class="d-xl-none d-flex">
+                    <div class="Footer-item col-lg-3 mt-2">
+                      <img src="./img/navbar.png" alt=""><br><br><br>
+                    </div>
+                 </div>
+                <div class="Footer-flex d-xl-flex d-none">
+                  <div class="row">
+                    <div class="Footer-item col-lg-3 m-3">
+                      <img src="./img/navbar.png" alt=""><br><br><br>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.708092374813!2d69.2446903755743!3d41.31521350046965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b49ef295ea1%3A0xc70178670c5462a9!2sMuseum%20of%20Celebrities!5e0!3m2!1suz!2s!4v1705312399518!5m2!1suz!2s" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  </div>
+                    </div>
+                    <div class="Footer-item col-lg-2 col-md-4 col-sm-6 m-3">
+                      <h1>Tezkor <br> Havolalar</h1><br>
+                      <pre>» <a href="#">Youtube</a></pre>
+                      <pre>» <a href="#">Instagram</a></pre>
+                      <pre>» <a href="#">Telegram</a></pre>
+                      <pre>» <a href="#">Facebook</a></pre>
+                    </div>
+                    <div class="Footer-item col-lg-2 col-md-4 col-sm-6 m-3">
+                        <h1>Bogʻlanish</h1>
+                        <p>Toshkent shahar, Amir <br> Temur shoh ko‘chasi 16</p>
+                        <a href="#">+998 71 236 74 36</a><br>
+                        <a href="#">+998 71 233 62 81</a><br>
+                        <a href="#"><i class="fa-solid fa-envelope"></i>tmi2007@gmail.com</a><br>
+                        <a href="#"><i class="fa-solid fa-tty"></i>+998 71 236 74 36</a>
+                    </div>
+                    <div class="Footer-item col-lg-3 col-md-4 col-sm-6 m-3">
+                        <h1>Ish Kunlari</h1>
+                        <p>Seshanba - yakshanba kunlari <br> soat 09:00 dan 18:00 gacha</p>
+                        <h1>Ijtimoiy Tarmoqlar</h1><br>
+                        <button><i class="fa-brands fa-facebook-f"></i></button>
+                        <button><i class="fa-brands fa-instagram"></i></button>
+                        <button><i class="fa-brands fa-youtube"></i></button>
+                        <button><i class="fa-brands fa-telegram"></i></button>
+                    </div>
+                    <div class="Footer-item col-lg-2 col-md-4 col-sm-6 m-3">
+                        <h1>Tezkor Havolalar</h1>
+                        <pre>» <a href="./index.html">Asosiy</a></pre>
+                        <pre>» <a href="./Ashyolar.html">Ashyolar</a></pre>
+                        <pre>» <a href="./Fo'to'Galareya.html">Fo'to'galareya</a></pre>
+                        <pre>» <a href="./Bog'lanish.html">Bog'lanish</a></pre>
+                    </div>
+                  </div>
+                </div>
+            <button class="btn btn-primary d-xl-none d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="fa-solid fa-bars"></i></button>
+  
+          <div class="offcanvas offcanvas-bottom bg-dark" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              <div class="Footer-flex d-sm-block d-xl-flex d-lg-flex d-md-block">
+                <div class="row">
+                  <div class="Footer-item col-lg-2 col-md-4 col-sm-6 mt-2">
+                    <img src="./img/navbar.png" alt=""><br><br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.708092374813!2d69.2446903755743!3d41.31521350046965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b49ef295ea1%3A0xc70178670c5462a9!2sMuseum%20of%20Celebrities!5e0!3m2!1suz!2s!4v1705312399518!5m2!1suz!2s" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  </div>
+                  </div>
+                  <div class="Footer-item col-lg-2 col-md-4 col-sm-6">
+                    <h1 class="text-light">Tezkor <br> Havolalar</h1><br>
+                    <pre>» <a href="#">Youtube</a></pre>
+                    <pre>» <a href="#">Instagram</a></pre>
+                    <pre>» <a href="#">Telegram</a></pre>
+                    <pre>» <a href="#">Facebook</a></pre>
+                  </div>
+                  <div class="Footer-item col-lg-2 col-md-4 col-sm-6">
+                      <h1 class="text-light">Bogʻlanish</h1>
+                      <p class="text-light">Toshkent shahar, Amir <br> Temur shoh ko‘chasi 16</p>
+                      <a href="#">+998 71 236 74 36</a><br>
+                      <a href="#">+998 71 233 62 81</a><br>
+                      <a href="#"><i class="fa-solid fa-envelope"></i>tmi2007@gmail.com</a><br>
+                      <a href="#"><i class="fa-solid fa-tty"></i>+998 71 236 74 36</a>
+                  </div>
+                  <div class="Footer-item col-lg-3 col-md-4 col-sm-6">
+                      <h1 class="text-light">Ish Kunlari</h1>
+                      <p class="text-light">Seshanba - yakshanba kunlari <br> soat 09:00 dan 18:00 gacha</p>
+                      <h1>Ijtimoiy Tarmoqlar</h1><br>
+                      <button><i class="fa-brands fa-facebook-f"></i></button>
+                      <button><i class="fa-brands fa-instagram"></i></button>
+                      <button><i class="fa-brands fa-youtube"></i></button>
+                      <button><i class="fa-brands fa-telegram"></i></button>
+                  </div>
+                  <div class="Footer-item col-lg-2 col-md-4 col-sm-6">
+                      <h1 class="text-light">Tezkor Havolalar</h1>
+                      <pre>» <a href="./index.html">Asosiy</a></pre>
+                      <pre>» <a href="./Ashyolar.html">Ashyolar</a></pre>
+                      <pre>» <a href="./Fo'to'Galareya.html">Fo'to'galareya</a></pre>
+                      <pre>» <a href="./Bog'lanish.html">Bog'lanish</a></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
